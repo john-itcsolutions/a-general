@@ -1,6 +1,6 @@
 ## Emergent Enterprise DApp for multi-networked Enterprise trading on smart contracts, and for everyday business.
 
-# au.com.itcsolutions.cheirrs 
+# "cheirrs"
 is the repo to find the backend for this Front End
 
 Hi, 

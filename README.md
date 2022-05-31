@@ -82,7 +82,7 @@ It may be worth noting that every client's devices (whether mobile or desktop) a
 
 The Kubernetes installation's Status Board looks like this:
 
-<img src="./Screenshot from 2021-06-22 06-28-06.png">
+<img src="./Screenshot from 2022-05-31 21-43-58.png">
 
 Our "smart-web" server (the heart of the Elastos System) is installed on kubernetes-worker-0 (at 10.57.133.224, et al. in the figure), and communicates with the postgresql database, whose replica are labeled pg-a/0 and pg-a/1. The actual blockchains (4 of them) are inside 4 containers within smart-web. The smart-web server obviously also communicates with the client dApps (Front Ends). In addition worker-1 participates in an Internet of Things system as the lynchpin between the edge-connected node-red-industrial servers (ie connected to IoT devices in the field), the IoT schema on postgres, and the Administration dApp monitoring events. All interconnections to smart-web rely upon gRPC protocol buffers, an invention of Google's. All web communications are shielded by Elastos Carrier.
 

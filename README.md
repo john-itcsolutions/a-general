@@ -17,7 +17,7 @@ It is a Kubernetes-based repo, designed for intallation of a juju charms kuberne
 
 On that repo you will find the 'smart-web' server, which provides access for requests from this, The General, Front End to the PostgreSQL 'lagerhaus' database, via JavaScript calls to gRPC protocol buffers (yet to be) included in a-general, but getting ready now, to be implemented in python3.
 
-The 'lagerhaus' database incorporates the cheirrs, cheirrs_oseer, das_fuhrwerk and other schema (for other dApps) for the database to store, compute/process and report on data. The database backup files are private, and not made available in the public repository. A novel approach to making Databases behave like Blockchains (except with large data capacities) as far as Trustworthiness is concerned. We demonstrate our methods and architecture following the IBM article at https://arxiv.org/pdf/1903.01919.pdf, on the cheirrs repo.
+The 'lagerhaus' database incorporates the cheirrs, cheirrs_oseer, das_fuhrwerk and other schema (for other dApps) for the database to store, compute/process and report on data. The database backup files are private, and not made available in the public repository. A novel approach is being taken to making Databases behave like Blockchains (except with large data capacities) as far as Trustworthiness is concerned. We demonstrate our methods and architecture following the IBM article at https://arxiv.org/pdf/1903.01919.pdf, on the cheirrs repo.
 
 The das_fuhrwerk schema is our company's own supervising schema for overseeing all operations at the topmost level, including the billing and accounting for customer enterprises, and our own planning, accounting, managing and reporting activities.
 

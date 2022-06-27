@@ -2,22 +2,22 @@
   "id": "au.com.itcsolutions.cheirrs",
   "version": "0.0.1",
   "version_code": 1,
-  "name": "CHEIRRS",
-  "short_name": "CHEIRRS",
-  "short_description": "Social & Affordable Housing Enterprise DApp",
-  "description": "Full Enterprise DApp for your Housing Organisation.",
+  "name": "The General",
+  "short_name": "The General",
+  "short_description": "Internetworked Enterprise DApp",
+  "description": "",
   "start_url": "index.html",
   "type": "app",
   "start_visible": "hide",
   "category": "finance",
   "icons": [
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/favicon.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/favicon.png",
       "sizes": "128x128",
       "type": "image/png"
     }
@@ -25,7 +25,7 @@
   "author": {
     "name": "John L Olsen",
     "email": "john@itcsolutions.com.au",
-    "website": "www.itcsolutions.com.au"
+    "website": "www.itotchaincloud.com.au"
   },
   "default_locale": "en",
   "plugins": [
@@ -33,7 +33,7 @@
     "NetworkStatus"
   ],
   "urls": [
-    "https://www.itcsolutions.com.au/*",
+    "https://www.itotchaincloud.com.au/*",
     "https://www.elastos.org/*",
     "10.80.202.223:443/*",
     "10.80.202.223:9000/*",

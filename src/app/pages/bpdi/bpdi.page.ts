@@ -22,13 +22,29 @@ export class BpdiPage implements OnInit {
     {
       id: '0',
       name: 'radio_list',
-      value: '/menu/bpdi/createcontracttype',
-      text: 'Create Contract Type',
+      value: '/menu/bpdi/create_ethereum_smart_contract_type',
+      text: 'Create Ethereum Smart_Contract Type (on Global Blockchain)',
       disabled: false,
       checked: true,
       color: 'primary'
     }, {
       id: '1',
+      name: 'radio_list',
+      value: '/menu/bpdi/create_sub_net_smart_contract_type',
+      text: 'Create Biz-Sub-Net Smart_Contract Type (on Database)',
+      disabled: false,
+      checked: true,
+      color: 'secondary'
+    },{
+      id: '2',
+      name: 'radio_list',
+      value: '/menu/bpdi/createcontracttype',
+      text: 'Create Other Contract Type',
+      disabled: false,
+      checked: true,
+      color: 'primary'
+    },{
+      id: '3',
       name: 'radio_list',
       value: '/menu/bpdi/createbusinessprocesstype',
       text: 'Create Business Process Type',
@@ -36,7 +52,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '2',
+      id: '4',
       name: 'radio_list',
       value: '/menu/bpdi/createcontract',
       text: 'Create Contract (you may also create a type from this contract, here)',
@@ -44,7 +60,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '3',
+      id: '5',
       name: 'radio_list',
       value: '/menu/bpdi/rcommencecontract',
       text: '(Re-)Commence Contract (Instantiate Contract)',
@@ -52,7 +68,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '4',
+      id: '6',
       name: 'radio_list',
       value: '/menu/bpdi/rcommencebusprocess',
       text: '(Re-)Commence Business Process (Instantiate Process)',
@@ -60,7 +76,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '5',
+      id: '7',
       name: 'radio_list',
       value: '/menu/bpdi/listcontracttypes',
       text: 'List Contract Types',
@@ -68,7 +84,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '6',
+      id: '8',
       name: 'radio_list',
       value: '/menu/bpdi/listcurrentandpendingcontracts',
       text: 'List Current & Pending Contracts',
@@ -76,7 +92,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '7',
+      id: '9',
       name: 'radio_list',
       value: '/menu/bpdi/listbusprocesstypes',
       text: 'List Business Process Types',
@@ -84,7 +100,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '8',
+      id: '10',
       name: 'radio_list',
       value: '/menu/bpdi/listcurrentbusprocesses',
       text: 'List Current Business Processes',
@@ -92,7 +108,7 @@ export class BpdiPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '9',
+      id: '11',
       name: 'radio_list',
       value: '/menu/bpdi/trackaprocess',
       text: 'Track Business Processes',

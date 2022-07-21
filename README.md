@@ -1,3 +1,14 @@
+## PLEASE NOTE THAT THIS REPO HAS MOVED TO:
+
+https://bitbucket.org/itotcca/a-general
+
+Thanks.
+
+
+
+
+
+
 ## Emergent Enterprise DApp for multi-networked Enterprise trading on smart contracts, and for everyday business.
 
 # "cheirrs"
